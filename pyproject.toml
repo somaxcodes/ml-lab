@@ -7,7 +7,9 @@ authors = [
     { name = "Soma Das", email = "somad6244@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pandas>=3.1.1",
+]
 
 [project.scripts]
 ml-lab = "ml_lab:main"
